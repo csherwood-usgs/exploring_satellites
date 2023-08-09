@@ -1,0 +1,26 @@
+name: satellites
+channels:
+  - pyviz
+  - conda-forge
+dependencies:
+  - jupyter-book
+  - jupyterlab
+  - jupyter_server
+  - pip
+  - python>=3.9
+  - matplotlib
+  - xarray
+  - pandas
+  - hvplot
+  - panel
+  - bokeh
+  - jupyter_bokeh
+  - planetary-computer
+  - pystac-client
+  - geoviews
+  - dask
+  - distributed
+  - odc-stac
+  - pydantic < 2
+  - pip:
+      - sphinx-pythia-theme
